@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.fitpeo.testcases.FitPeoTest"/>
+      <class name="com.fitpeo.testcases.FitpeoTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fitpeo.testcases.FitPeoTest">
+      <class name="com.fitpeo.testcases.FitpeoTest">
         <methods>
+          <include name="Update_the_Text_Field_Validate_Slider_Value"/>
+          <include name="RecurringReimbursemen"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testRevenueCalculator"/>
+          <include name="SelectCPTCodes"/>
         </methods>
-      </class> <!-- com.fitpeo.testcases.FitPeoTest -->
+      </class> <!-- com.fitpeo.testcases.FitpeoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
